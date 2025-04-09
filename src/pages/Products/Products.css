@@ -1,0 +1,85 @@
+.products{
+    padding: 36px 32px;
+    .head{
+        margin-bottom: 24px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        h1{
+            font-weight: 700;
+            font-size: 28px;
+            color: #000000;
+        }
+        .addBtn{
+            padding: 7px 20px;
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 20px;
+            border: none;
+            border-radius: 3px;
+            color: #FFFFFF;
+            background-color: #4880FF;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 4px;
+        }
+    }
+    .productsTable {
+        width: 100%;
+        border-collapse: collapse;
+        text-align: center;
+        background-color: #FFFFFF;
+        thead{
+            tr{
+                height: 48px;
+                font-weight: 700;
+                font-size: 14px;
+                color: #202224;
+                border: 0.6px solid #D5D5D5;
+            }
+        }
+        tbody{
+            tr{
+                height: 77px;
+                font-weight: 600;
+                font-size: 14px;
+                color: #202224;
+                border-bottom: 0.4px solid #D5D5D5;
+                td{
+                    img{
+                        width: 56px;
+                        object-fit: cover;
+                        border-radius: 5px;
+                    }
+                    .editBtn , .deleteBtn{
+                        padding: 8px 15px;
+                        border: none;
+                        border-top: 0.6px solid #D5D5D5;
+                        border-bottom: 0.6px solid #D5D5D5;
+                        background-color: #FAFBFD;
+                        cursor: pointer;
+                    }
+                    .editBtn{
+                        border-right: 0.4px solid #979797;
+                        border-left: 0.6px solid #D5D5D5;
+                        border-top-left-radius: 8px;
+                        border-bottom-left-radius: 8px;
+                        .editIcon{
+                            color: grey;
+                        }
+                    }
+                    .deleteBtn{
+                        border-right: 0.6px solid #D5D5D5;
+                        border-top-right-radius: 8px;
+                        border-bottom-right-radius: 8px;
+                        .deleteIcon{
+                            color: #EF3826;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

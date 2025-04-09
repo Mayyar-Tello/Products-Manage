@@ -1,0 +1,18 @@
+.auth{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    .Auth_Bg_Color , .Auth_Shape{
+        height: 100%;
+        width: 100%;
+        position: absolute;
+    }
+    .Auth_Bg_Color{
+        z-index: -2;
+    }
+    .Auth_Shape{
+        z-index: -1;
+    }
+}

@@ -1,0 +1,57 @@
+.root{
+    display: flex;
+    background-color: #F5F6FA;
+    .content{
+        width: 83%;
+        .hero{
+            padding-bottom: 30px;
+            background-color: #F5F6FA;
+        }
+    }
+    .popupOverlay{
+        background-color: #00000080;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .popupContent{
+        padding: 93px 147px;
+        border-radius: 20px;
+        text-align: center;
+        background-color: #FFFFFF;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        p{
+            font-weight: 600;
+            font-size: 24px;
+            color: #000000;
+        }
+        .btns{
+            padding-top: 53px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 26px;
+            .yesBtn , .noBtn{
+                padding: 15px 56px;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+                color: #FFFFFF;
+            }
+            .yesBtn{
+                background-color: #EF3826;
+            }
+            .noBtn{
+                background-color: #4880FF;
+            }
+        }
+    }
+}

@@ -1,0 +1,75 @@
+.signin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    form{
+        width: 36%;
+        padding: 22px 32px 26px;
+        position: absolute;
+        text-align: center;
+        background-color: #FFFFFF;
+        border-radius: 16px;
+        h1{
+            font-weight: 700;
+            font-size: 32px;
+            color: #202224;
+        }
+        p{
+            font-weight: 600;
+            font-size: 16px;
+            color: #202224;
+        }
+        .signinEmail{
+            padding: 32px 0 17px;
+        }
+        .signinPassword{
+            padding-bottom: 32px;
+        }
+        .signinEmail , .signinPassword{
+            display: flex;
+            align-items: baseline;
+            flex-direction: column;
+            label{
+                padding-bottom: 4px;
+                font-weight: 600;
+                font-size: 14px;
+                color: #202224;
+            }
+            input{
+                width: 100%;
+                height: 45px;
+                padding-left: 16px;
+                border-radius: 6px;
+                border: 1px solid #D8D8D8;
+                outline: none;
+                background-color: #F1F4F9;
+            }
+        }
+        .submitInput{
+            height: 50px;
+            width: 100%;
+            margin-bottom: 8px;
+            color: #FFFFFF;
+            background-color: #4880FF;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+        .signinInfo{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            p , a{
+                font-size: 14px;
+            }
+            p{
+                color: #202224;
+            }
+            a{
+                padding-left: 2px;
+                text-decoration: none;
+                color: #5A8CFF;
+            }
+        }
+    }
+}

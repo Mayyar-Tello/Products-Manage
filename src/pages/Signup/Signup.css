@@ -1,0 +1,88 @@
+.signup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    form{
+        width: 36%;
+        padding: 22px 32px 26px;
+        text-align: center;
+        background-color: #FFFFFF;
+        border-radius: 16px;
+        position: absolute;
+        h1{
+            font-weight: 700;
+            font-size: 32px;
+            color: #202224;
+        }
+        p{
+            padding-bottom: 31px;
+            font-weight: 600;
+            font-size: 18px;
+            color: #202224;
+        }
+        .firstAndlast , .passwordAndConfirmation{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 18px;
+            .firstNameSignupPage , .lastNameSignupPage , .passwordSignupPage , .passwordConfirmationSignupPage{
+                width: 48%;
+            }
+        }
+        .firstNameSignupPage , .lastNameSignupPage , .userNameSignupPage , .emailSignupPage , .passwordSignupPage , .passwordConfirmationSignupPage , .profileImageSignupPage{
+            padding-bottom: 8px;
+            display: flex;
+            align-items: baseline;
+            flex-direction: column;
+        }
+        .profileImageSignupPage{
+            #profile_image_input{
+                display: none;
+            }
+            img{
+                cursor: pointer;
+            }
+        }
+        label{
+            font-weight: 600;
+            font-size: 14px;
+            color: #202224;
+        }
+        input{
+            width: 100%;
+            height: 45px;
+            padding-left: 16px;
+            border-radius: 6px;
+            border: 1px solid #D8D8D8;
+            background-color: #F1F4F9;
+            outline: none;
+        }
+        .submitInput{
+            height: 50px;
+            width: 100%;
+            margin-bottom: 8px;
+            color: #FFFFFF;
+            background-color: #4880FF;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+        .signupInfo{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            p , a{
+                font-size: 14px;
+            }
+            p{
+                padding-bottom: 0;
+                color: #202224;
+            }
+            a{
+                padding-left: 2px;
+                text-decoration: none;
+                color: #5A8CFF;
+            }
+        }
+    }
+}
